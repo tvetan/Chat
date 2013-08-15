@@ -13,7 +13,7 @@ namespace Chat.Services.Controllers
 {
     public class PostsController : ApiController
     {
-        private IRepository<Post> postRepository;
+        private readonly IRepository<Post> postRepository;
 
         public PostsController()
         {
