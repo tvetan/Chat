@@ -1,0 +1,109 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.Services", "Chat.Services\Chat.Services.csproj", "{7C4383EC-2C3C-44F8-BEF7-9445CFAB6F3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.Models", "Chat.Models\Chat.Models.csproj", "{C873DF38-E3C8-421D-AEE1-CC326836F4B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.Data", "Chat.Data\Chat.Data.csproj", "{1A525D1D-7C68-470A-BD3A-6B9079114FF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.Repositories", "Chat.Repositories\Chat.Repositories.csproj", "{78249F6B-CB1B-475F-8841-B123EA738CC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.Client", "Chat.Client\Chat.Client.csproj", "{8FE368C0-EFAA-48C5-98B5-4782162A7024}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dropbox", "Dropbox-Example\Dropbox.csproj", "{AFDFEDAE-7035-4A9A-B78D-952AC217BBD6}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs33
+		SccProjectUniqueName0 = Chat.Models\\Chat.Models.csproj
+		SccProjectName0 = Chat.Models
+		SccAuxPath0 = https://tfs.codeplex.com/tfs/tfs33
+		SccLocalPath0 = Chat.Models
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = Chat.Data\\Chat.Data.csproj
+		SccProjectName1 = Chat.Data
+		SccAuxPath1 = https://tfs.codeplex.com/tfs/tfs33
+		SccLocalPath1 = Chat.Data
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName2 = Dropbox-Example\\Dropbox.csproj
+		SccProjectName2 = Dropbox-Example
+		SccAuxPath2 = https://tfs.codeplex.com/tfs/tfs33
+		SccLocalPath2 = Dropbox-Example
+		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName3 = Chat.Client\\Chat.Client.csproj
+		SccProjectName3 = Chat.Client
+		SccAuxPath3 = https://tfs.codeplex.com/tfs/tfs33
+		SccLocalPath3 = Chat.Client
+		SccProvider3 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName4 = Chat.Repositories\\Chat.Repositories.csproj
+		SccProjectName4 = Chat.Repositories
+		SccAuxPath4 = https://tfs.codeplex.com/tfs/tfs33
+		SccLocalPath4 = Chat.Repositories
+		SccProvider4 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName5 = Chat.Services\\Chat.Services.csproj
+		SccProjectName5 = Chat.Services
+		SccAuxPath5 = https://tfs.codeplex.com/tfs/tfs33
+		SccLocalPath5 = Chat.Services
+		SccProvider5 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C4383EC-2C3C-44F8-BEF7-9445CFAB6F3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C4383EC-2C3C-44F8-BEF7-9445CFAB6F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C4383EC-2C3C-44F8-BEF7-9445CFAB6F3A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{7C4383EC-2C3C-44F8-BEF7-9445CFAB6F3A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{7C4383EC-2C3C-44F8-BEF7-9445CFAB6F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C4383EC-2C3C-44F8-BEF7-9445CFAB6F3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C4383EC-2C3C-44F8-BEF7-9445CFAB6F3A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{7C4383EC-2C3C-44F8-BEF7-9445CFAB6F3A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{C873DF38-E3C8-421D-AEE1-CC326836F4B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C873DF38-E3C8-421D-AEE1-CC326836F4B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C873DF38-E3C8-421D-AEE1-CC326836F4B8}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{C873DF38-E3C8-421D-AEE1-CC326836F4B8}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{C873DF38-E3C8-421D-AEE1-CC326836F4B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C873DF38-E3C8-421D-AEE1-CC326836F4B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C873DF38-E3C8-421D-AEE1-CC326836F4B8}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{C873DF38-E3C8-421D-AEE1-CC326836F4B8}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{1A525D1D-7C68-470A-BD3A-6B9079114FF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A525D1D-7C68-470A-BD3A-6B9079114FF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A525D1D-7C68-470A-BD3A-6B9079114FF4}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{1A525D1D-7C68-470A-BD3A-6B9079114FF4}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{1A525D1D-7C68-470A-BD3A-6B9079114FF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A525D1D-7C68-470A-BD3A-6B9079114FF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A525D1D-7C68-470A-BD3A-6B9079114FF4}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{1A525D1D-7C68-470A-BD3A-6B9079114FF4}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{78249F6B-CB1B-475F-8841-B123EA738CC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78249F6B-CB1B-475F-8841-B123EA738CC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78249F6B-CB1B-475F-8841-B123EA738CC5}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{78249F6B-CB1B-475F-8841-B123EA738CC5}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{78249F6B-CB1B-475F-8841-B123EA738CC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78249F6B-CB1B-475F-8841-B123EA738CC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78249F6B-CB1B-475F-8841-B123EA738CC5}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{78249F6B-CB1B-475F-8841-B123EA738CC5}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{8FE368C0-EFAA-48C5-98B5-4782162A7024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FE368C0-EFAA-48C5-98B5-4782162A7024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FE368C0-EFAA-48C5-98B5-4782162A7024}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{8FE368C0-EFAA-48C5-98B5-4782162A7024}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{8FE368C0-EFAA-48C5-98B5-4782162A7024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FE368C0-EFAA-48C5-98B5-4782162A7024}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FE368C0-EFAA-48C5-98B5-4782162A7024}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{8FE368C0-EFAA-48C5-98B5-4782162A7024}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{AFDFEDAE-7035-4A9A-B78D-952AC217BBD6}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{AFDFEDAE-7035-4A9A-B78D-952AC217BBD6}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{AFDFEDAE-7035-4A9A-B78D-952AC217BBD6}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{AFDFEDAE-7035-4A9A-B78D-952AC217BBD6}.Release|Any CPU.ActiveCfg = Release|x86
+		{AFDFEDAE-7035-4A9A-B78D-952AC217BBD6}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{AFDFEDAE-7035-4A9A-B78D-952AC217BBD6}.Release|Mixed Platforms.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
